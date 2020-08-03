@@ -1,0 +1,24 @@
+body { 
+    background-color: lightblue;
+    text-align: center;
+}
+
+#outputBox {
+    display: flex;
+    background-color: darkblue;
+    justify-content: center
+}
+
+#display, #storage {
+    background-color: black;
+    color: green;
+}
+
+#grid-pad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 60vh;
+    background-color: black;
+    margin: 0xp 40px 0xp 40px;
+}
