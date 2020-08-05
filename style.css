@@ -3,15 +3,24 @@ body {
     text-align: center;
 }
 
-#outputBox {
-    display: flex;
-    background-color: darkblue;
-    justify-content: center
+#container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
 }
 
-#display, #storage {
+#outputBox {
+    display: flex;
     background-color: black;
-    color: green;
+    justify-content: center;
+}
+
+#display {
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 #grid-pad {
@@ -19,6 +28,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     height: 60vh;
-    background-color: black;
+    background-color: #ff9999;
     margin: 0xp 40px 0xp 40px;
+    color: #e699ff;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.grid-pad-button {
+    background-color: white;
+    color: black;
 }
